@@ -1,4 +1,4 @@
-module hexo-go
+module blog-tools
 
 go 1.21.1
 

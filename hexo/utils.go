@@ -4,10 +4,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func init() {
-	rootCmd.AddCommand(VersionCmd())
-}
-
 func VersionCmd() *cobra.Command {
 	return &cobra.Command{
 		Use:   "version",

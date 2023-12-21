@@ -1,7 +1,10 @@
 package main
 
-import "hexo-go/hexo"
+import "blog-tools/cmd"
 
 func main() {
-	_ = hexo.Execute()
+	err := cmd.Execute()
+	if err != nil {
+		panic(err)
+	}
 }
